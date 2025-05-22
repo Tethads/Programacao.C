@@ -1,4 +1,4 @@
-include<stdio.h>
+#include<stdio.h>
 
 int main (){
     int idade,matrícula;
@@ -18,7 +18,7 @@ int main (){
     scanf("%d", &matrícula);
     
     printf("nome do aluno: %s - matrícula: %d \n", nome, matrícula);
-    printf("idade: %d - altura:%f \n", idade, altura);
+    printf("idade: %d - altura:%.2f \n", idade, altura);
 
 return 0;
 }
