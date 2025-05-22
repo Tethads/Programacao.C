@@ -1,7 +1,7 @@
-#include<stdio.h>
+#include <stdio.h>
 
 int main (){
-    int idade,matrícula;
+    int idade,matricula;
     float altura;
     char nome[50];
 
@@ -12,12 +12,12 @@ int main (){
     scanf("%f", &altura);
 
     printf("Digite o seu nome: \n");
-    scanf("%s", &nome);
+    scanf("%[^\n]", &nome);
 
-    printf("Digite sua matrícula: \n");
+    printf("Digite sua matricula: \n");
     scanf("%d", &matrícula);
     
-    printf("nome do aluno: %s - matrícula: %d \n", nome, matrícula);
+    printf("nome do aluno: %s - matricula: %d \n", nome, matricula);
     printf("idade: %d - altura:%.2f \n", idade, altura);
 
 return 0;
