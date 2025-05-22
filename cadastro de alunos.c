@@ -12,10 +12,10 @@ int main (){
     scanf("%f", &altura);
 
     printf("Digite o seu nome: \n");
-    scanf("%[^\n]", &nome);
+    scanf("% [^\n]", &nome);
 
     printf("Digite sua matricula: \n");
-    scanf("%d", &matrícula);
+    scanf("%d", &matricula);
     
     printf("nome do aluno: %s - matricula: %d \n", nome, matricula);
     printf("idade: %d - altura:%.2f \n", idade, altura);
